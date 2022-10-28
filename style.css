@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&display=swap");
+* {
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(0, 0%, 95%);
+}
+main {
+  width: 1440px;
+  /* width: 50%; */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: auto;
+  /* border-radius:5em; */
+}
+img {
+  height: 100px;
+  margin-left: -25px;
+  margin-bottom: 3em;
+  mix-blend-mode: multiply;
+}
+.click {
+  font-size: 25px;
+}
+h1 {
+  color: hsl(0, 42%, 95%);
+  font-weight: "Big shoulder Display", cursive;
+  font-weight: 700;
+  font-size: 50px;
+  margin-bottom: 3em;
+}
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 23px;
+  justify-content: space-around, space-between, space-evenly;
+  font-family: "lexend deca", sans-serif;
+  font-weight: 400;
+  margin-bottom: 3em;
+}
+button {
+  border: 2px solid hsl(0, 0%, 95%);
+  border-radius: 2.5em;
+  font-family: "lexend deca", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  height: 60px;
+  max-width: 65%;
+  color: inherit;
+}
+.left {
+  background-color: hsl(31, 77%, 52%);
+  padding: 5em;
+  border-top-left-radius: 1em;
+  border-bottom-left-radius: 1em;
+}
+.left button{
+  color: hsl(31, 77%, 52%);
+}
+.left button:active {
+  color: hsl(0, 0%, 95%);
+  background-color: hsl(31, 77%, 52%);
+}
+.middle {
+  background-color: hsl(184, 100%, 22%);
+  padding: 5em;
+}
+.middle button {
+  color: hsl(0, 0%, 95%);
+  background-color: hsl(184, 100%, 22%);
+}
+.middle button:active{background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+}
+.right {
+  background-color: hsl(179, 100%, 13%);
+  padding: 5em;
+  border-top-right-radius: 1em;
+  border-bottom-right-radius: 1em;
+}
+.right button {
+  color: hsl(179, 100%, 13%);
+}
+.right button:active {
+color: hsl(0, 0%, 95%);
+  background-color: hsl(179, 100%, 13%);
+}
