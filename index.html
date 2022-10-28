@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>reg page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <table class="header" border="0" , width="100%">
+      <tr>
+        <th id="header" width="25%"><a href="index.html">REGISTER</a></th>
+        <th id="header" width="25%"><a href="login.html">LOGIN</a></th>
+        <th id="header" width="25%"><a href="success.html">SUCCESS</a></th>
+      </tr>
+    </table>
+    <form align="center">
+      <div class="register">
+        <h2 id="register">REGISTER</h2>
+      </div>
+      <div class="reg">
+        <label id="firstname" for="fname">First Name:</label>
+        <input type="text" id="firstN" name="fname" />
+      </div>
+
+      <div class="reg">
+        <label id="lastname" for="lname">Last Name:</label>
+        <input type="text" id="lastN" name="lname">
+      </div>
+
+      <div class="reg">
+        <label id="number" for="num">Phone Number:</label>
+        <input type="number" id="num" name="num">
+      </div>
+
+      <div class="reg">
+        <label id="email" for="email">Email:</label>
+        <input type="text" id="eemail" name="mail" required placeholder="Enter a valid email address">
+      </div>
+
+      <div class="reg">
+        <label id="gender" for="gender">Gender:</label>
+        <select id="gend" class="gender" name="gender">
+            <option value="1">Male</option>
+            <option value="2">Female</option>
+        </select>
+
+        <div class="reg">
+            <label id="dob" for="dob">Date of Birth:</label>
+            <select id="month" class="month" name="month">
+                <option value="1">January</option>
+                <option value="2">Feburary</option>
+                <option value="3">March</option>
+                <option value="4">April</option>
+                <option value="5">May</option>
+                <option value="6">June</option>
+                <option value="7">July</option>
+            </select>
+            <select id="day" class="day" name="day">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+            </select>
+            <select id="year" class="year" name="year">
+              <option value="1">2000</option>
+              <option value="2">2001</option>
+              <option value="3">2002</option>
+              <option value="4">2003</option>
+              <option value="5">2004</option>
+              <option value="6">2005</option>
+              <option value="7">2006</option>
+            </select>
+        </div>
+
+        <div class="reg">
+          <label id="fcolor" for="fcolor">Favourite Color:</label>
+          <select id="fcolor" class="fcolor" name="fcolor">
+            <option value="1">Red</option>
+            <option value="2">Green</option>
+            <option value="3">Black</option>
+            <option value="4">white</option>
+            <option value="5">Blue</option>
+            <option value="6">Purple</option>
+          </select>
+        </div>
+      </div>
+      <input id="submit" type="submit" value="submit">
+    </form>
+  </body>
+
+  <footer>
+    <div>&copy; Delight</div>
+  </footer>
+</html>

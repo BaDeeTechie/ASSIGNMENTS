@@ -1,0 +1,223 @@
+.header{background-color: brown;
+padding: 5px;
+border-spacing: 5px;}
+
+body{background-color: rgb(175, 216, 202);
+margin-left: 10px;
+margin-right: 10px;
+margin-bottom: 30px;
+font-family: 'Courier New', Courier, monospace;}
+
+#header{font-family: 'Courier New', Courier, monospace;}
+
+form{text-align: center;
+justify-content: center;
+font-family: 'Courier New', Courier, monospace;}
+
+.mess{margin-top: 30px;
+margin-bottom: 40px;
+display: grid;
+place-items: center;}
+
+#mess{width:32ch;
+animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
+white-space: nowrap;
+overflow: hidden;
+border-right: 3px solid;
+font-family: 'Courier New', Courier, monospace;
+font-size: 20px;
+font-weight: lighter;
+word-spacing: 17px;
+color: rgb(70, 70, 236);}
+#funame {
+    font-size: large;
+  }
+  
+  #fname {
+    margin-top: 10px;
+    height: 22px;
+    width: 25%;
+    margin-bottom: 30px;
+  }
+  
+  #mail {
+    font-size: large;
+    margin-top: 10px;
+  }
+  
+  #mailer {
+    margin-top: 10px;
+    height: 22px;
+    width: 25%;
+    margin-bottom: 30px;
+  }
+/* for login */
+
+#login {
+    margin-bottom: 40px;
+  }
+  
+  #username {
+    font-size: large;
+  }
+  
+  #usermail {
+    margin-top: 10px;
+    height: 22px;
+    width: 30%;
+    margin-bottom: 30px;
+  }
+  
+  #password {
+    font-size: large;
+    margin-top: 10px;
+  }
+  
+  #passw {
+    margin-top: 10px;
+    height: 22px;
+    width: 30%;
+    margin-bottom: 30px;
+  }
+  
+  #log {
+    border: #223341 solid 2px;
+    background-color: #bb7648;
+    height: 30px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: large;
+    width: 10%;
+  }
+  
+  #messs {
+    width: 35ch;
+    animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    margin-bottom: 30px;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: lighter;
+    word-spacing: 17px;
+    color: #223341;
+  }
+  
+  h2{
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .mess a {
+    border: #223341 solid 2px;
+    background-color: #bb7648;
+    font-family: "Courier New", Courier, monospace;
+    font-size: large;
+    width: 10%;
+    padding: 5px;
+  }
+  
+  /* for register */
+  
+  #register {
+    margin-bottom: 40px;
+  }
+  
+  label{
+    display: inline-block;
+    width: 120px;
+    text-align: right;
+  }
+  
+  
+  #firstname {
+    font-size: large;
+  }
+  
+  #firstN {
+    margin-top: 10px;
+    height: 22px;
+    width: 20%;
+    margin-bottom: 15px;
+  }
+  
+  #lastname {
+    font-size: large;
+    margin-top: 10px;
+  }
+  
+  #lastN {
+    margin-top: 10px;
+    height: 22px;
+    width: 20%;
+    margin-bottom: 15px;
+  }
+  
+  #number {
+    font-size: large;
+    margin-top: 10px;
+  }
+  
+  #num {
+    margin-top: 10px;
+    height: 22px;
+    width: 20%;
+    margin-bottom: 15px;
+  }
+  
+  #gender {
+    font-size: large;
+    margin-top: 10px;
+  }
+  
+  #gend {
+    margin-top: 10px;
+    height: 22px;
+    width: 20.5%;
+    margin-bottom: 15px;
+  }
+  #email {
+    font-size: large;
+    margin-top: 10px;
+  }
+  
+  #eemail {
+    margin-top: 10px;
+    height: 22px;
+    width: 20%;
+    margin-bottom: 15px;
+  }
+  
+  #pword {
+    font-size: large;
+    margin-top: 10px;
+  }
+  
+  #passwordd {
+    margin-top: 10px;
+    height: 22px;
+    width: 20%;
+    margin-bottom: 15px;
+  }
+  #submit {
+    border: #223341 solid 2px;
+    background-color: #bb7648;
+    height: 30px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: large;
+    width: 10%;
+    margin: 30px;
+  }
+  
+  footer{
+    color:#223341;
+    background-color:#bb7648;
+    font-weight: bold;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    border-spacing: 5px;
+    
+  }
